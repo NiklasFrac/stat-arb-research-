@@ -5,7 +5,7 @@ entry selection in equity pairs trading, under free-data constraints and
 realistic execution assumptions.
 
 This repository contains the current draft and final pipeline runs.
-The accompanying code is maintained separately at [link to code repo].
+The accompanying code is maintained separately at [Mean-Reversion-Projekt](https://github.com/NiklasFrac/Mean-Reversion-Projekt).
 
 ---
 
