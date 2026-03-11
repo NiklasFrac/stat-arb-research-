@@ -34,7 +34,7 @@ Sections not yet written are absent rather than placeholder-filled.
 
 ## Runs
 
-Final outputs for each stage in corresponding folder
+Final outputs for completed stages are stored in the corresponding folders in this repository.
 
 ---
 
