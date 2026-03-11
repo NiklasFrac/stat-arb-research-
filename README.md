@@ -34,7 +34,7 @@ Sections not yet written are absent rather than placeholder-filled.
 
 ## Runs
 
-`runs/` contains final outputs for the completed pipeline stages.
+Final outputs for each stage in corresponding folder
 
 ---
 
