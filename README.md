@@ -1,0 +1,46 @@
+# Markov-Filtered Mean Reversion on US Equities — Working Paper
+
+Empirical study of whether a Markov-based spread-state filter can improve
+entry selection in equity pairs trading, under free-data constraints and
+realistic execution assumptions.
+
+This repository contains the current draft and final pipeline runs.
+The accompanying code is maintained separately at [link to code repo].
+
+---
+
+## Status
+
+This is a working paper. The table below reflects the current state.
+
+| Section | Status |
+|---|---|
+| Universe Construction | Final run done; text near-final |
+| Data Processing | Final run done; text near-final |
+| Statistical Analysis | Final run done; text near-final |
+| Baseline Strategy | Text near-final |
+| Markov Filter | Text near-final |
+| Risk Management | Text near-final |
+| Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Text near-final |
+| LOB Simulator & Comparison Engine | Not started |
+| Overfitting Analysis | Not started |
+| Results | Pending (final runs outstanding) |
+| Conclusion | Not started |
+
+The current draft (`draft/`) reflects the near-final sections.
+Sections not yet written are absent rather than placeholder-filled.
+
+---
+
+## Runs
+
+`runs/` contains final outputs for the completed pipeline stages.
+
+---
+
+## Methodological stance
+
+The paper is written with explicit limitations in scope:
+- Daily OHLCV data only (no tick data)
+- Free data sources; results are conditioned on this constraint
+- No claims of live tradability; the goal is rigorous empirical analysis under clearly stated assumptions
