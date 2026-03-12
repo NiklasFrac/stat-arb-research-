@@ -15,14 +15,14 @@ This is a working paper. The table below reflects the current state.
 
 | Section | Status |
 |---|---|
-| Universe Construction | Final run done; text near-final |
-| Data Processing | Final run done; text near-final |
-| Statistical Analysis | Final run done; text near-final |
-| Baseline Strategy | Text near-final |
+| Universe Construction | Final run done; Done |
+| Data Processing | Final run done; Done |
+| Statistical Analysis | Final run done; Done |
+| Baseline Strategy | Done |
 | Markov Filter | Write-up in progress |
 | Risk Management | Text near-final |
-| Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Text near-final |
-| LOB Simulator & Comparison Engine | Write-up in progress|
+| Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Write-up in progress |
+| LOB Simulator & Comparison Engine | Write-up in progress |
 | Overfitting Analysis | Not started on text |
 | Results | Pending (final runs outstanding) |
 | Conclusion | Not started |
