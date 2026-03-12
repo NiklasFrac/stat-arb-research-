@@ -1,46 +1,75 @@
-# Markov-Filtered Mean Reversion on US Equities — Working Paper
+# Markov-Filtered Mean Reversion on US Equities
 
-Empirical study of whether a Markov-based spread-state filter can improve
-entry selection in equity pairs trading, under free-data constraints and
-realistic execution assumptions.
+This repository contains the research draft and exported artifacts for an empirical study on mean-reversion in US equity pairs under free-data constraints.
 
-This repository contains the current draft and final pipeline runs.
-The accompanying code is maintained separately at [Mean-Reversion-Projekt](https://github.com/NiklasFrac/Mean-Reversion-Projekt).
+The project examines whether a finite-state Markov approximation of the rolling spread Z-score can improve entry selection relative to a baseline daily-bar pairs-trading strategy. The emphasis is on transparent empirical design, split-consistent evaluation, and reproducible research artifacts.
 
----
+## Repository contents
 
-## Status
+This repository contains:
 
-This is a working paper. The table below reflects the current state.
+- the current working paper draft in LaTeX,
+- the compiled PDF draft,
+- exported run artifacts for completed pipeline stages,
+- supporting materials for the empirical write-up.
+
+The implementation codebase is maintained separately in the corresponding code repository.
+
+## Quick links
+
+- [Current PDF draft](draft.pdf)
+- [LaTeX source](draft.tex)
+- [Code repository](https://github.com/NiklasFrac/Mean-Reversion-Projekt)
+
+## Project scope
+
+The study is designed as a reproducible empirical investigation of a constrained statistical-arbitrage setting on US equities. In particular, it separates
+
+- global pair selection from downstream backtesting,
+- split-specific calibration from out-of-sample evaluation,
+- baseline strategy logic from the Markov-based entry overlay,
+- research claims from broader live-trading claims.
+
+The intended contribution is therefore methodological and empirical: the project studies whether the proposed overlay improves trade selection within a transparent daily-data framework.
+
+## Repository structure
+
+- `draft.tex`: current LaTeX paper source  
+- `draft.pdf`: compiled draft PDF  
+- `ANL-...`: analysis-stage exported artifacts  
+- `PRC-...`: processing-stage exported artifacts  
+- `RUN-...`: run-level / backtest exported artifacts  
+- `README.md`: repository overview  
+
+The exported folders are retained as research artifacts corresponding to completed stages of the pipeline.
+
+## Current status
+
+The repository is maintained as an active working-paper and artifact repository. Core methodological sections are already drafted, while some later sections remain in progress.
 
 | Section | Status |
 |---|---|
 | Universe Construction | Final run done; Done |
 | Data Processing | Final run done; Done |
 | Statistical Analysis | Final run done; Done |
-| LOB Simulator & Comparison Engine | Write-up in progress |
 | Baseline Strategy | Done |
 | Markov Filter | Write-up in progress |
 | Risk Management | Text near-final |
 | Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Write-up in progress |
+| LOB Simulator & Comparison Engine | Write-up in progress |
 | Overfitting Analysis | Not started on text |
 | Results | Pending (final runs outstanding) |
 | Conclusion | Not started |
 
-The current [`draft`](draft.pdf) contains the near-final sections of the paper.
-Sections not yet written are absent rather than placeholder-filled.
+## Reading guide
 
----
+For a first pass, the recommended order is:
 
-## Runs
+1. consult the status table for section maturity,
+2. read the current PDF draft,
+3. inspect the exported run artifacts for completed stages,
+4. refer to the linked code repository for implementation details.
 
-Final outputs for completed stages are stored in the corresponding folders in this repository.
+## Notes
 
----
-
-## Methodological stance
-
-The paper is written with explicit limitations in scope:
-- Daily OHLCV data only (no tick data)
-- Free data sources; results are conditioned on this constraint
-- No claims of live tradability; the goal is rigorous empirical analysis under clearly stated assumptions
+The current draft already contains the main research framing, data construction logic, processing pipeline, statistical selection layer, and the formal strategy specification. The remaining work is concentrated mainly in the completion of later write-up sections, final result consolidation, and concluding synthesis.
