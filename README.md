@@ -18,7 +18,7 @@ This is a working paper. The table below reflects the current state.
 | Universe Construction | Final run done; Done |
 | Data Processing | Final run done; Done |
 | Statistical Analysis | Final run done; Done |
-| LOB Simulator & Comparison Engine | Write-up in progress |
+| LOB Simulator & Comparison Engine | Text near-final |
 | Baseline Strategy | Done |
 | Markov Filter | Write-up in progress |
 | Risk Management | Text near-final |
