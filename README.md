@@ -55,7 +55,7 @@ The repository is maintained as an active working-paper and artifact repository.
 | Baseline Strategy | Done |
 | Markov Filter | Write-up in progress |
 | Risk Management | Text near-final |
-| Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Write-up in progress |
+| Walk-Forward Framework | Write-up in progress |
 | LOB Simulator & Comparison Engine | Write-up in progress |
 | Overfitting Analysis | Not started on text |
 | Results | Pending (final runs outstanding) |
