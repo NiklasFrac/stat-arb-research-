@@ -58,7 +58,7 @@ The repository is maintained as an active working-paper and artifact repository.
 | Walk-Forward Framework | Write-up in progress |
 | LOB Simulator & Comparison Engine | Write-up in progress |
 | Overfitting Analysis | Not started on text |
-| Results | Pending (final runs outstanding) |
+| Results | Pending |
 | Conclusion | Not started |
 
 ## Reading guide
