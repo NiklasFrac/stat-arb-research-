@@ -11,8 +11,9 @@ The project examines whether a finite-state Markov approximation of the rolling 
 - `ANL-...`: analysis-stage exported artifacts  
 - `PRC-...`: processing-stage exported artifacts  
 - `RUN-...`: universe-level exported artifacts
-- `README.md`: repository overview  
+- `README.md`: repository overview
 
+The exported folders are retained as research artifacts corresponding to completed stages of the pipeline.
 The implementation codebase is maintained separately in the corresponding code repository.
 
 ## Quick links
@@ -31,8 +32,6 @@ The study is designed as a reproducible empirical investigation of a constrained
 - research claims from broader live-trading claims.
 
 The intended contribution is therefore methodological and empirical: the project studies whether the proposed overlay improves trade selection within a transparent daily-data framework.
-
-The exported folders are retained as research artifacts corresponding to completed stages of the pipeline.
 
 ## Current status
 
@@ -63,4 +62,4 @@ For a first pass, the recommended order is:
 
 ## Notes
 
-The current draft already covers the core research framing, universe and data construction, processing pipeline, statistical selection framework, and formal strategy specification. The remaining work is focused primarily on completing the later write-up sections, consolidating the final empirical results, and sharpening the concluding discussion
+The current draft already covers the core research framing, universe and data construction, processing pipeline, statistical selection framework, and formal strategy specification. The remaining work is focused primarily on completing the later write-up sections, consolidating the final empirical results, and sharpening the concluding discussion.
