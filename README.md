@@ -49,9 +49,9 @@ The repository is maintained as an active working-paper and artifact repository.
 
 | Section | Status |
 |---|---|
-| Universe Construction | Final run done; Done |
-| Data Processing | Final run done; Done |
-| Statistical Analysis | Final run done; Done |
+| Universe Construction | Done |
+| Data Processing | Final Done |
+| Statistical Analysis | Done |
 | Baseline Strategy | Done |
 | Markov Filter | Write-up in progress |
 | Risk Management | Text near-final |
@@ -65,8 +65,8 @@ The repository is maintained as an active working-paper and artifact repository.
 
 For a first pass, the recommended order is:
 
-1. consult the status table for section maturity,
-2. read the current PDF draft,
+1. read the current PDF draft,
+2. consult the status table for section maturity,
 3. inspect the exported run artifacts for completed stages,
 4. refer to the linked code repository for implementation details.
 
