@@ -19,7 +19,7 @@ This is a working paper. The table below reflects the current state.
 | Data Processing | Final run done; text near-final |
 | Statistical Analysis | Final run done; text near-final |
 | Baseline Strategy | Text near-final |
-| Markov Filter | Text near-final |
+| Markov Filter | Write-up in progress |
 | Risk Management | Text near-final |
 | Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Text near-final |
 | LOB Simulator & Comparison Engine | Write-up in progress|
