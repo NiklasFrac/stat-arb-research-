@@ -27,7 +27,7 @@ This is a working paper. The table below reflects the current state.
 | Results | Pending (final runs outstanding) |
 | Conclusion | Not started |
 
-The current [(`draft`)](draft.pdf) contains the near-final sections of the paper.
+The current `draft`(draft.pdf) contains the near-final sections of the paper.
 Sections not yet written are absent rather than placeholder-filled.
 
 ---
