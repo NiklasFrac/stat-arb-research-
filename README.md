@@ -50,7 +50,7 @@ The repository is maintained as an active working-paper and artifact repository.
 | Section | Status |
 |---|---|
 | Universe Construction | Done |
-| Data Processing | Final Done |
+| Data Processing | Done |
 | Statistical Analysis | Done |
 | Baseline Strategy | Done |
 | Markov Filter | Write-up in progress |
