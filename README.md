@@ -38,7 +38,7 @@ The intended contribution is therefore methodological and empirical: the project
 - `draft.pdf`: compiled draft PDF  
 - `ANL-...`: analysis-stage exported artifacts  
 - `PRC-...`: processing-stage exported artifacts  
-- `RUN-...`: run-level / backtest exported artifacts  
+- `RUN-...`: universe-level exported artifacts
 - `README.md`: repository overview  
 
 The exported folders are retained as research artifacts corresponding to completed stages of the pipeline.
