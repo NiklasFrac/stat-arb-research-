@@ -21,7 +21,7 @@ This is a working paper. The table below reflects the current state.
 | Baseline Strategy | Text near-final |
 | Markov Filter | Text near-final |
 | Risk Management | Text near-final |
-| Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Text near-final |
+| Walk-Forward Framework (EG test, AR(1) / half-life, Bayesian optimisation w/ blocked CV) | Write-up in progress |
 | LOB Simulator & Comparison Engine | Not started on text|
 | Overfitting Analysis | Not started on text |
 | Results | Pending (final runs outstanding) |
