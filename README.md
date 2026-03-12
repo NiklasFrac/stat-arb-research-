@@ -72,4 +72,4 @@ For a first pass, the recommended order is:
 
 ## Notes
 
-The current draft already contains the main research framing, data construction logic, processing pipeline, statistical selection layer, and the formal strategy specification. The remaining work is concentrated mainly in the completion of later write-up sections, final result consolidation, and concluding synthesis.
+The current draft already covers the core research framing, universe and data construction, processing pipeline, statistical selection framework, and formal strategy specification. The remaining work is focused primarily on completing the later write-up sections, consolidating the final empirical results, and sharpening the concluding discussion
