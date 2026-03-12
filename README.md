@@ -4,14 +4,14 @@ This repository contains the research draft and exported artifacts for an empiri
 
 The project examines whether a finite-state Markov approximation of the rolling spread Z-score can improve entry selection relative to a baseline daily-bar pairs-trading strategy. The emphasis is on transparent empirical design, split-consistent evaluation, and reproducible research artifacts.
 
-## Repository contents
+## Repository structure
 
-This repository contains:
-
-- the current working paper draft in LaTeX,
-- the compiled PDF draft,
-- exported run artifacts for completed pipeline stages,
-- supporting materials for the empirical write-up.
+- `draft.tex`: current LaTeX paper source  
+- `draft.pdf`: compiled draft PDF  
+- `ANL-...`: analysis-stage exported artifacts  
+- `PRC-...`: processing-stage exported artifacts  
+- `RUN-...`: universe-level exported artifacts
+- `README.md`: repository overview  
 
 The implementation codebase is maintained separately in the corresponding code repository.
 
@@ -31,15 +31,6 @@ The study is designed as a reproducible empirical investigation of a constrained
 - research claims from broader live-trading claims.
 
 The intended contribution is therefore methodological and empirical: the project studies whether the proposed overlay improves trade selection within a transparent daily-data framework.
-
-## Repository structure
-
-- `draft.tex`: current LaTeX paper source  
-- `draft.pdf`: compiled draft PDF  
-- `ANL-...`: analysis-stage exported artifacts  
-- `PRC-...`: processing-stage exported artifacts  
-- `RUN-...`: universe-level exported artifacts
-- `README.md`: repository overview  
 
 The exported folders are retained as research artifacts corresponding to completed stages of the pipeline.
 
